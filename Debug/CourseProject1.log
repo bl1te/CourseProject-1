@@ -1,0 +1,28 @@
+﻿Сборка начата 06.03.2020 11:18:29.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\danil\source\repos\CourseProject1\CourseProject1.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "Debug\CourseProject1.tlog\".
+       InitializeBuildStatus:
+         Создание "Debug\CourseProject1.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt CourseProject1.cpp
+         CourseProject1.cpp
+     1>C:\Users\danil\source\repos\CourseProject1\CourseProject1.cpp(515): warning C4715: delItem: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\danil\source\repos\CourseProject1\Debug\CourseProject1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\danil\source\repos\CourseProject1\Debug\CourseProject1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\danil\source\repos\CourseProject1\Debug\CourseProject1.lib" /MACHINE:X86 Debug\CourseProject1.obj
+         CourseProject1.vcxproj -> C:\Users\danil\source\repos\CourseProject1\Debug\CourseProject1.exe
+       FinalizeBuildStatus:
+         Файл "Debug\CourseProject1.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\CourseProject1.tlog\CourseProject1.lastbuildstate".
+     1>Сборка проекта "C:\Users\danil\source\repos\CourseProject1\CourseProject1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\danil\source\repos\CourseProject1\CourseProject1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\danil\source\repos\CourseProject1\CourseProject1.cpp(515): warning C4715: delItem: значение возвращается не при всех путях выполнения
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:02.34
